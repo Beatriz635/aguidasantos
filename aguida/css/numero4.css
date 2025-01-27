@@ -1,0 +1,129 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+ul {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 10%; 
+}
+
+nav.logo{
+  margin-left: 45%;
+  margin-right: 45%;
+  text-align: center;
+}
+
+
+.oii{
+  text-align: center;
+}
+body {     
+  background-color: #e6e2ef;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h2 {
+  text-align: center;
+ }
+
+table {
+  border-collapse: collapse;      
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+}
+
+ tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #CEA8EF;
+  color: white;
+}
+
+
+footer {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.rodape .coluna {
+  width: 45%; 
+  text-align: center;
+}
+
+.rodape h3 {
+  margin-top: 0;
+  color: #f1f1f1;
+}
+
+.rodape p {
+  margin: 5px 0;
+}
+
+
+footer {
+  margin-top: auto; 
+}
+
+h1.uva{
+  color: #8a2be2;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  nav.logo {
+    width: 30vw; /* Aumenta o tamanho da logo para 30% da largura da tela */
+    max-width: 250px; /* Define um tamanho máximo */
+    margin: auto;
+  }
+  table {
+
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+}

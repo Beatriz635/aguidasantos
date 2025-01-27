@@ -1,0 +1,104 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 10%; 
+}
+
+nav.logo{
+  margin-left: 45%;
+  margin-right: 45%;
+  text-align: center;
+}
+
+
+footer.rodape {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.rodape .coluna {
+  width: 45%;  
+  text-align: center;
+}
+
+.rodape h3 {
+  margin-top: 0;
+}
+
+.rodape p {
+  margin: 5px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+  .container{
+  text-align: center;
+  margin: auto;
+}
+
+.oi{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+div.pato{
+  background-color: #e6e1ef;
+}
+
+h2.uva{
+  text-align: center;
+  color: #8a2be2;
+}
+
+@media screen and (max-width: 600px) {
+  nav.logo {
+    width: 30vw; /* Aumenta o tamanho da logo para 30% da largura da tela */
+    max-width: 250px; /* Define um tamanho máximo */
+    margin: auto;
+  }
+  .oi{
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: justify;
+}
+.col-sm-12 img{
+width: 90%;
+margin-left: 5%;
+  margin-right: 5%;
+}
+}
+

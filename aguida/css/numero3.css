@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+ul {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  height: 10%;
+  width: 100%;
+}
+
+nav.logo{
+  margin-left: 45%;
+  margin-right: 45%;
+  text-align: center;
+}
+
+footer.rodape {
+  background-color: #333;
+  color: white;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 20px; 
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+}
+
+.rodape .coluna {
+  width: 45%; 
+  text-align: center;
+}
+
+.rodape h3 {
+  margin-top: 0;
+  color: #f1f1f1;
+}
+
+.rodape p {
+  margin: 5px 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #e6e1ef;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+footer {
+  margin-top: auto; 
+}
+
+main {
+    
+    
+    margin: auto;
+    text-align: center;
+}
+
+.introducao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.introducao h2 {
+    font-size: 36px;
+    color: #8a2be2;
+    margin-bottom: 20px;
+}
+
+.introducao p {
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+section.servicos {
+   
+}
+
+.servico-item {
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    height: 320px;
+}
+
+.servico-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.servico-item h3 {
+    font-size: 24px;
+    color: #8a2be2;
+    margin-bottom: 15px;
+}
+
+.servico-item p {
+    font-size: 16px;
+    color: #555;
+}
+
+div.bola{
+  background-color: #e6e1ef;
+}
+
+@media screen and (max-width: 600px) {
+  nav.logo {
+    width: 30vw; /* Aumenta o tamanho da logo para 30% da largura da tela */
+    max-width: 250px; /* Define um tamanho máximo */
+    margin: auto;
+  }
